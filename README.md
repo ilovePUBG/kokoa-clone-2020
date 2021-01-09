@@ -1,1 +1,1 @@
-# Kokoa Clone 2020 challenge~~!!
+# Personal portfolio
