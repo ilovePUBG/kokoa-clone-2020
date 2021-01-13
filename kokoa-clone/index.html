@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+       div {
+           background-color: teal;
+           width: 200px;
+           height: 200px;
+       }
+       @media screen and (max-width: 600px) {
+           div {
+               background-color: yellowgreen;
+           }
+       }
+       @media screen and (min-width: 601px) and (max-width: 1200px) {
+           div {
+               background-color: green;
+           }
+       }
+       @media screen and (min-width: 1201px) {
+           div {
+               background-color: blue;
+           }
+       }
+      
+    </style>
+</head>
+<body>
+   <div></div>
+</body>
+</html>

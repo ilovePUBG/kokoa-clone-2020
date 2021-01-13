@@ -1,0 +1,10 @@
+@import "reset.css";
+
+/* components */
+
+/* screens */
+@import "screens/home.css";
+
+body {
+  height: 175vh;
+}
