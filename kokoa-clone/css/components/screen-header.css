@@ -3,12 +3,21 @@
   justify-content: space-between;
   align-items: center;
   padding: 40px var(--horizontal-space);
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
   font-size: 32px;
   font-weight: 600;
 }
+.screen-header__icons {
+  position: relative;
+}
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.red-dot__screen-header {
+  top: -5px;
+  right: -7px;
 }
