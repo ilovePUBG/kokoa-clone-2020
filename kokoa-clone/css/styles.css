@@ -18,10 +18,11 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/only-ipad.css";
 
 body {
   font-family: "Josefin Sans", sans-serif;
-  height: 200vh;
+  height: 105vh;
   color: #2e363e;
 }
 

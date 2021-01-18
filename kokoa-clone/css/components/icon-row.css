@@ -1,7 +1,6 @@
 .icon-row {
   display: flex;
   justify-content: space-between;
-  border-bottom: var(--main-border);
   padding-bottom: 25px;
   margin-bottom: 20px;
 }
